@@ -1,0 +1,12 @@
+flowchart LR
+    Red["Red"]
+    Green["Green"]
+    Yellow["Yellow"]
+
+    Red -->|timer / ready| Green
+    Green -->|timer / prepare| Yellow
+    Yellow -->|timer / stop| Red
+
+    style Red fill:#ff4d4d,stroke:#800000,stroke-width:2px,color:#ffffff
+    style Green fill:#4dff4d,stroke:#007f00,stroke-width:2px,color:#000000
+    style Yellow fill:#ffea4d,stroke:#7f6f00,stroke-width:2px,color:#000000
