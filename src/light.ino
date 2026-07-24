@@ -114,7 +114,7 @@ void loop() {
 
     setTrafficLightState(TrafficLightState::YELLOWRED);
     delay(YELLOW_DURATION);
-setTrafficLightState(TrafficLightState::GREEN);
+    setTrafficLightState(TrafficLightState::GREEN);
     delay(GREEN_DURATION);
 
 
