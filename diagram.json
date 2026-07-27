@@ -55,6 +55,13 @@
       "top": -282,
       "left": 42.2,
       "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -400.8,
+      "left": 165,
+      "attrs": { "volume": "0.1" }
     }
   ],
   "connections": [
@@ -68,7 +75,9 @@
     [ "led1:A", "r2:1", "green", [ "v0" ] ],
     [ "led3:A", "r3:1", "green", [ "v0" ] ],
     [ "led1:C", "uno:GND.2", "green", [ "v460.8", "h163.6" ] ],
-    [ "led3:C", "uno:GND.2", "green", [ "v211.2", "h-172.4", "v297.6", "h19.2" ] ]
+    [ "led3:C", "uno:GND.2", "green", [ "v211.2", "h-172.4", "v297.6", "h19.2" ] ],
+    [ "bz1:2", "uno:5", "green", [ "v0" ] ],
+    [ "bz1:1", "uno:GND.1", "black", [ "v192", "h-67.2" ] ]
   ],
   "dependencies": {}
 }
