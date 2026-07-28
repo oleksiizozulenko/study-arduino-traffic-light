@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 // --- ПІНИ ---
 // Світлофор для авто
 const byte CAR_RED_PIN    = 8;

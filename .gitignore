@@ -55,3 +55,4 @@ dkms.conf
 *.dwo
 
 .pio
+.vscode/c_cpp_properties.json
